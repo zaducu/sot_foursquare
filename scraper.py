@@ -3,7 +3,7 @@ import simplejson
 import scraperwiki
 import requests
 
-url = "https://api.foursquare.com/v2/venues/search?ll=53.02,-2.17&client_id=I0TV2YQ2JCGC0NX0QF0ECZI15SG1CFQKHIW3G5RTC2DLRJJU&client_secret=0IK5ROSZJKKHUPEPA2FK0RVA4FQZRXBBL3ISNSCGKYCVQ0UV&v=20121221"
+"https://api.foursquare.com/v2/venues/search?near=Stockholm,SE&client_id=I0TV2YQ2JCGC0NX0QF0ECZI15SG1CFQKHIW3G5RTC2DLRJJU&client_secret=0IK5ROSZJKKHUPEPA2FK0RVA4FQZRXBBL3ISNSCGKYCVQ0UV&v=20121221"
 
 resultsJson = simplejson.loads(scraperwiki.scrape(url))
 
